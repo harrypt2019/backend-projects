@@ -13,12 +13,12 @@ $subject_invoice = "Test Cronjob";
 
 $admin_email_ids = 'haresh@plumtreewebsolutions.com';
 
-$send_to_admin = mail($admin_email_ids,$subject_invoice,$body_html,$headers);
-if($send_to_admin){
-	echo "Email sent successfully...";
-}else{
-	echo "Error while sending an email";
-} 
-exit;
+// $send_to_admin = mail($admin_email_ids,$subject_invoice,$body_html,$headers);
+// if($send_to_admin){
+// 	echo "Email sent successfully...";
+// }else{
+// 	echo "Error while sending an email";
+// } 
+// exit;
 
 ?>
